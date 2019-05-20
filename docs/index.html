@@ -14,9 +14,8 @@
               Depletion-Corrected Average Catch
             </div>
               
-              <div class = "badge" data-md-tooltip="Limited Support" id="greybadge">
-              <!-- &#10039; -->
-              </div>
+              <div class = "badge"  data-md-tooltip=badge_internal_inactive id = badge_internal_inactive> </div>
+
               
               
               <div class = "badge" data-md-tooltip="Not Validated" id="greycheck">
@@ -47,9 +46,11 @@
               
 
               
-                <button class = "codelink" id = "nolink">
-                Associated Tools
+              <a href= "https://github.com/nmfs-fish-tools/DCAC.git" target="_blank" title="link to code repository">
+                <button class = "codelink">
+                Code Repository
                 </button>
+              </a>
               
               <button class = "IconButton" title="need support?">
                 ?
@@ -68,19 +69,17 @@
               </div>
 
               
-              <a class = "pdfIcon" id = "nolink">
-              </a>
 
-              
-
-              <a class = "githubIcon" href="https://github.com/nmfs-fish-tools/DCAC.git" target="_blank"></a>
+              <!-- <a class = "githubIcon" href="https://github.com/nmfs-fish-tools/DCAC.git" target="_blank"></a> -->
 
               <button class = "versionButton">
               Version 2.1.1
               </button>
         </div>
         <div class ="label">
-              Type:  stock assessment model
+            
+             Type: stock assessment model
+            
         </div>
 
         <div class = "authName">
@@ -91,10 +90,11 @@
         <div class ="mainText">
           The Depletion-Corrected Average Catch is a method for estimating sustainable yields for data-poor fisheries.  Based on the idea that the average catch has been sustainable if abundance has not changed, DCAC makes a correction to that average if abundance has increased or decreased (which may be the subject of an educated guess based on subjective impressions).  The magnitude of the correction depends on the approximate natural mortality rate, which should be about 0.2 or smaller to apply this model.  Uncertainty is recognized in all of the parameters in the model, and is reflected in the output probability distribution.
         </div>
-        <div class = "ref">
+        <div class="mainText">
+        
+          <div class = "ref">
             References
-        </div>
-        <div class ="mainText">
+          </div>
             <ul>
               
               <li>Alverson, D., and W. Pereyra. 1969. Demersal fish explorations in the northeastern Pacific Ocean – an evaluation of exploratory fishing methods and analytical approaches to stock size and yield forecasts. J. Fish Res. Board Can. 26:1985-2001.</li>
@@ -110,10 +110,16 @@
               <li>Walters, C., and S. Martell. 2004. Fisheries ecology and management. Princeton University Press. 399 p.</li>
               
             </ul>
-        </div>
+          
+
+          
+            </div>
       </div>
 
-
+      <div class = "divider"></div>
+        <footer> <a class ="mylink" href="https://www.commerce.gov/">U.S. Department of Commerce</a>
+    <a class ="mylink" href="https://www.noaa.gov">National Oceanographic and Atmospheric Administration</a>
+    <a class ="mylink" href="https://www.fisheries.noaa.gov/">NOAA Fisheries</a></footer>
 
     </div>
 
